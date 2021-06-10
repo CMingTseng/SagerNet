@@ -7,5 +7,10 @@ rootProject.extra.apply {
 repositories {
     google()
     mavenCentral()
+    mavenLocal()
+    gradlePluginPortal()
     maven(url = "https://jitpack.io")
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
 }
