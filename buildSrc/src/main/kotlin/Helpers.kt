@@ -114,7 +114,7 @@ fun Project.setupCommon() {
             exclude("DebugProbesKt.bin")
         }
         packagingOptions {
-            jniLibs.useLegacyPackaging = true
+//            jniLibs.useLegacyPackaging = true
         }
         (this as? AbstractAppExtension)?.apply {
             buildTypes {
